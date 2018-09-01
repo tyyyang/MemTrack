@@ -1,6 +1,6 @@
 ## Learning Dynamic Memory Networks for Object Tracking
 ### Introduction
-This is the Tensorflow implementation of our [**MemTrack**](https://arxiv.org/pdf/1803.07268.pdf) tracker published in ECCV, 2018. Detailed comparision results can be found in the author's [webpage](tianyu-yang.com)
+This is the Tensorflow implementation of our [**MemTrack**](https://arxiv.org/pdf/1803.07268.pdf) tracker published in ECCV, 2018. Detailed comparision results can be found in the author's [webpage](https://tianyu-yang.com)
 
 ### Prerequisites
 
