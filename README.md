@@ -19,8 +19,8 @@ You can use our pretrained model to test our tracker first.
 
 ### Training
 1. Download the ILSRVC data from the official website and extract it to proper place according to the path in `config.py`.
-2. Then run the `sh process_data.sh` in `./data_preprocssing` directory to convert ILSVRC data to tfrecords.
-3. Run `python3 train.py` to train the model.
+2. Then run the `sh process_data.sh` in `./build_tfrecords` directory to convert ILSVRC data to tfrecords.
+3. Run `python3 experiment.py` to train the model.
 
 ### Citing MemTrack
 If you find the code is helpful, please cite
