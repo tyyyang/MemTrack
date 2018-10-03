@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------
+# Tensorflow implementation of
+#  "Learning Dynamic Memory Networks for Object Tracking", ECCV,2018
+# Licensed under The MIT License [see LICENSE for details]
+# Written by Tianyu Yang (tianyu-yang.com)
+# ------------------------------------------------------------------
+
 import tensorflow as tf
 import time
 import sys
