@@ -84,7 +84,6 @@ use_focal_loss = False
 
 summaries_dir = 'output/summary/'
 checkpoint_dir = 'output/models/'
-pretrained_model_checkpoint_path = 'output/pre_models/'
 
 summary_save_step = 500
 model_save_step = 5000

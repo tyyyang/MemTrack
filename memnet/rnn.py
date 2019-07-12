@@ -7,8 +7,14 @@
 
 import tensorflow as tf
 from tensorflow.python.util import nest
-from memnet.utils import weights_summay
 import config
+
+
+def weights_summay(weight, name):
+    weight_shape = weight.get_shape().as_list()
+
+    for i in range(weight_shape[1]):
+        tf.summary.histogram('Memory_{}/{}'.format(i, name), weight[:,i])
 
 def rnn(cell, inputs, initial_state, scope=None):
     """Creates a recurrent neural network specified by RNNCell `cell`."""
