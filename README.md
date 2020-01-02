@@ -1,4 +1,5 @@
 ## Learning Dynamic Memory Networks for Object Tracking
+>*We extend our MemTrack with Distractor Template Canceling mechamism in our journal verison, please check our new method [MemDTC](https://tianyu-yang.com/resources/memdtc.pdf). Code is availabe at [MemDTC-code](https://github.com/skyoung/MemDTC)* 
 ### Introduction
 This is the Tensorflow implementation of our [**MemTrack**](https://arxiv.org/pdf/1803.07268.pdf) tracker published in ECCV, 2018. Detailed comparision results can be found in the author's [webpage](https://tianyu-yang.com)
 
